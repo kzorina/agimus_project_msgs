@@ -3,7 +3,8 @@
   <name>agimus_msgs</name>
   <version>0.0.1</version>
   <description>Agimus project ROS messages</description>
-  <maintainer email="kateryna.zorina@cvut.cz">Kateryna Zorina</maintainer>
+  <author email="kateryna.zorina@cvut.cz">Kateryna Zorina</author>
+  <maintainer email="guilhem.saurel@laas.fr">Guilhem Saurel</maintainer>
   <license>BSD</license>
 
 
