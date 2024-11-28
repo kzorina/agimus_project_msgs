@@ -20,8 +20,11 @@ float64[] qddot
 # Corresponding cost weights
 float64[] qddot_w
 
-# Target end-effector pose in the urdf root frame
+# Target end-effector frame pose in the urdf root frame
 # Pose includes position (x, y, z) and orientation as a quaternion (x, y, z, w)
 geometry_msgs/Pose pose
 # Corresponding cost weights
 float64[] pose_w
+
+# End-effector frame name
+string ee_frame_name
