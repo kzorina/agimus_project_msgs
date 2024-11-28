@@ -9,8 +9,8 @@ find_package(std_msgs REQUIRED)
 
 # Define message files
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/MpcInput.msg"  
-  DEPENDENCIES geometry_msgs std_msgs 
+  "msg/MpcInput.msg"
+  DEPENDENCIES geometry_msgs std_msgs
 )
 
 ament_package()
