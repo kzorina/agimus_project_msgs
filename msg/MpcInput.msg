@@ -20,7 +20,7 @@ float64[] qddot
 # Corresponding cost weights
 float64[] qddot_w
 
-# Target end-effector pose in the robot's base frame
+# Target end-effector pose in the urdf root frame
 # Pose includes position (x, y, z) and orientation as a quaternion (x, y, z, w)
 geometry_msgs/Pose pose
 # Corresponding cost weights
