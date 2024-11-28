@@ -24,7 +24,7 @@ float64[] qddot_w
 # Pose includes position (x, y, z) and orientation as a quaternion (x, y, z, w)
 geometry_msgs/Pose pose
 # Corresponding cost weights
-float64[] pose_w
+float64[6] pose_w
 
 # End-effector frame name
 string ee_frame_name
