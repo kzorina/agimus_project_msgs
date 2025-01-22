@@ -11,6 +11,8 @@ jobs:
             ubuntu_version: "ubuntu-22.04"
           - ros_version: "iron"
             ubuntu_version: "ubuntu-22.04"
+          - ros_version: "jazzy"
+            ubuntu_version: "ubuntu-24.04"
     runs-on: ${{ matrix.ubuntu_version }}
     steps:
       #
@@ -31,5 +33,5 @@ jobs:
       #
       - uses: ros-tooling/action-ros-ci@0.3.14
         with:
-          package-name: linear_feedback_controller_msgs
+          package-name: agimus_msgs
           target-ros2-distro: ${{ matrix.ros_version }}
