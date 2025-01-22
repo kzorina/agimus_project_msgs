@@ -24,15 +24,13 @@ stdenv.mkDerivation {
     eigen
     python3Packages.python
     rosPackages.humble.ament-cmake
-    # rosPackages.humble.ament-cmake-cppcheck
-    # rosPackages.humble.ament-cmake-cpplint
-    # rosPackages.humble.ament-cmake-flake8
-    # rosPackages.humble.ament-cmake-pep257
-    # rosPackages.humble.ament-cmake-uncrustify
     rosPackages.humble.rosidl-default-generators
   ];
 
   propagatedBuildInputs = [
+    rosPackages.humble.rosidl-typesupport-c
+    rosPackages.humble.rosidl-typesupport-introspection-c
+    rosPackages.humble.rosidl-runtime-py
     rosPackages.humble.sensor-msgs
     rosPackages.humble.std-msgs
   ];
